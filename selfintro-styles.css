@@ -60,14 +60,9 @@ header h2 {
     animation: fadeInUp 1s ease forwards;
 }
 
-/* 大頭照圖片樣式 */
-img.profile {
-  width: 150px;                          /* 寬度 150px */
-  height: 150px;                         /* 高度 150px */
-  object-fit: cover;                     /* 確保圖片不變形但填滿 */
-  border-radius: 50%;                    /* 裁成圓形 */
-  display: block;                        /* 區塊元素 */
-  margin: 0 auto 20px auto;              /* 上左右置中，下方間距 20px */
+.self-intro img {
+  width: 100%;
+  height: auto; 
 }
 
 /* 所有標題的置中設定 */
