@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>江庠範的自我介紹網站</title>
+
+  <!-- 使用 Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- 外部 CSS -->
+  <link rel="stylesheet" href="intern-styles.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="header-link">
+      <h2>歡迎來到我的個人網站</h2>
+    </a>
+    <!-- 導覽按鈕 -->
+    <div class="nav-buttons">
+      <div class="dropdown">
+        <button class="dropbtn">關於我</button>
+        <div class="dropdown-content">
+          <a href="selfintro.html">自我介紹</a>
+          <a href="education.html">學經歷</a>
+          <a href="intern.html">實習經驗</a>
+          <a href="club.html">社團經驗</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">個人技能</button>
+        <div class="dropdown-content">
+          <a href="code.html">程式能力</a>
+          <a href="certificate.html">檢定&證照</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">專案作品</button>
+        <div class="dropdown-content">
+          <a href="project.html">專案作品</a>
+          <a href="contest.html">競賽經驗</a>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div class="container">
+      <h2>競賽經驗</h2>
+      <div class="exp-box">
+        <div class="exp-header" onclick="toggleDetails(this)">
+          <img src="https://i.imgur.com/xwwL3Iu.jpg" alt="潛力種子盃" class="exp-logo">
+          <div class="exp-info">
+            <h4>潛力種子盃研究競賽</h4>
+            <h4 class="exp-date">2025.02</h4>
+          </div>
+          <div class="exp-toggle-icon">▽</div>
+        </div>
+        <div class="exp-details">
+          <img src="https://i.imgur.com/8r9GjQH.jpg" alt="參賽證明">
+        </div>
+      </div>
+
+      <h3>聯絡我</h3>
+      <div class="contact-info">
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:ytes96324@gmail.com">Gmail</a>
+        </p>
+        <p>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/hsiangfanchiang" target="_blank">Linkedin</a>
+        </p>
+      </div>
+    </div>
+
+  <footer>
+     © 2025 江庠範的個人網站
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
+ 
