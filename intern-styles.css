@@ -163,6 +163,11 @@ header h2 {
   font-size: 14px;
 }
 
+.exp-details img {
+  width: 100%;
+  height: auto;
+}
+
 .exp-box.active .exp-details {
   display: block;
 }
