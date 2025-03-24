@@ -1,0 +1,112 @@
+  <!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>江庠範的自我介紹網站</title>
+
+  <!-- 使用 Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- 外部 CSS -->
+  <link rel="stylesheet" href="code-styles.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="header-link">
+      <h2>歡迎來到我的個人網站</h2>
+    </a>
+    <!-- 導覽按鈕 -->
+    <div class="nav-buttons">
+      <div class="dropdown">
+        <button class="dropbtn">關於我</button>
+        <div class="dropdown-content">
+          <a href="selfintro.html">自我介紹</a>
+          <a href="education.html">學經歷</a>
+          <a href="intern.html">實習經驗</a>
+          <a href="club.html">社團經驗</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">個人技能</button>
+        <div class="dropdown-content">
+          <a href="code.html">程式能力</a>
+          <a href="certificate.html">檢定&證照</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">專案作品</button>
+        <div class="dropdown-content">
+          <a href="project.html">專案作品</a>
+          <a href="contest.html">參加競賽</a>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div class="container">
+      <h2>專案作品</h2>
+        <div class="skills-grid">
+            <div class="skill-card" onclick="toggleProject(this)">
+                <img src="https://cdn-icons-png.flaticon.com/512/14229/14229802.png" alt="JavaScript">
+                <p>XGBoost<br>多空交易策略</p>
+            </div>
+            <!-- Python 按鈕 -->
+            <div class="skill-card" onclick="toggleProject(this)">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                <p>Python</p>
+            </div>
+            <!-- HTML 按鈕 -->
+            <div class="skill-card" onclick="toggleProject(this)">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <!-- VBA 按鈕 -->
+            <div class="skill-card" onclick="toggleProject(this)">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualbasic/visualbasic-original.svg" alt="HTML">
+                <p>VBA</p>
+            </div>
+        </div>
+
+        <!-- 對應專案展示區 -->
+        <div class="project-details">
+            <div class="project-content">
+                <h3>XGBoost 多空交易策略</h3>
+                <p>利用 XGBoost 挑選未來上漲機率最大及最小的股票，並建立投資組合。</p>
+                <video width="100%" height="auto" controls style="border-radius: 12px;">
+                    <source src="https://i.imgur.com/noq1eez.mp4" type="video/mp4">
+                    您的瀏覽器不支援影片播放。
+                </video>
+            </div>
+            <div class="project-content">
+                <h3>Python 專案</h3>
+                <p>爬蟲分析、財經資料視覺化、自動化交易策略等。</p>
+            </div>
+            <div class="project-content">
+                <h3>HTML 專案</h3>
+                <p>互動式網站功能、前端動畫效果、資料展示。</p>
+            </div>
+            <div class="project-content">
+                <h3>VBA 專案</h3>
+                <p>互動式網站功能、前端動畫效果、資料展示。</p>
+            </div>
+        </div>
+
+      <h3>聯絡我</h3>
+      <div class="contact-info">
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:ytes96324@gmail.com">Gmail</a>
+        </p>
+        <p>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/hsiangfanchiang" target="_blank">Linkedin</a>
+        </p>
+      </div>
+    </div>
+
+  <footer>
+     © 2025 江庠範的個人網站
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
+ 
