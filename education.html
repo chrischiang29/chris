@@ -8,7 +8,7 @@
   <!-- 使用 Font Awesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- 外部 CSS -->
-  <link rel="stylesheet" href="edu-styles.css">
+  <link rel="stylesheet" href="intern-styles.css">
 </head>
 <body>
   <header>
@@ -30,7 +30,7 @@
         <button class="dropbtn">個人技能</button>
         <div class="dropdown-content">
           <a href="code.html">程式能力</a>
-          <a href="ertificate.html">檢定&證照</a>
+          <a href="certificate.html">檢定&證照</a>
         </div>
       </div>
       <div class="dropdown">
@@ -42,49 +42,68 @@
       </div>
     </div>
   </header>
-
-  <div class="container">
-    <h2>學經歷</h2>
-    <div class="edu-section">
-        <img src="https://i.imgur.com/94TWsbp.png" alt="中山校徽" class="school-logo">
-        <div class="edu-text">
-            <h4>國立中山大學 財務管理所</h4>
-            <h4>2024-2026</h4>
-            <p>目前擔任王昭文教授的指導學生及研究助理，主要領域為機器學習及程式自動化交易。</p>
+    <div class="container">
+      <h2>學經歷</h2>
+      <div class="exp-box">
+        <div class="exp-header" onclick="toggleDetails(this)">
+          <img src="https://i.imgur.com/94TWsbp.png" alt="中山校徽" class="exp-logo">
+          <div class="exp-info">
+            <h4>國立中山大學 財務管理學所</h4>
+            <h4 class="exp-date">2024 - 2026</h4>
+          </div>
+          <div class="exp-toggle-icon">▽</div>
         </div>
-    </div>
-    <div class="edu-section">
-        <img src="https://i.imgur.com/a4DbTnf.png" alt="中正校徽" class="school-logo">
-        <div class="edu-text">
+        <div class="exp-details">
+          <p>目前擔任王昭文教授的指導學生及研究助理，主要領域為機器學習及程式自動化交易。</p>
+          <img src="https://i.imgur.com/D5Q5Laq.jpg" alt="中山成績單">
+        </div>
+      </div>
+      <div class="exp-box">
+        <div class="exp-header" onclick="toggleDetails(this)">
+          <img src="https://i.imgur.com/a4DbTnf.png" alt="中正校徽" class="exp-logo">
+          <div class="exp-info">
             <h4>國立中正大學 財務金融學系</h4>
-            <h4>2020-2024</h4>
-            <p>在學期間修習校級金融科技學分學程、系級投資管理與金融創新學程及金融科技學程，積極擴展相關領域的專業知識。</p>
+            <h4 class="exp-date">2020 - 2024</h4>
+          </div>
+          <div class="exp-toggle-icon">▽</div>
         </div>
-    </div>
-    <div class="edu-section">
-        <img src="https://i.imgur.com/7G47BUq.png" alt="彰中校徽" class="school-logo">
-        <div class="edu-text">
-            <h4>縣立彰化高中</h4>
-            <h4>2016-2019</h4>
+        <div class="exp-details">
+          <p>在學期間修習校級金融科技學分學程、系級投資管理與金融創新學程及金融科技學程，積極擴展相關領域的專業知識。</p>
+          <img src="https://i.imgur.com/NEkRzlb.jpg" alt="證書">
+          </ul>
         </div>
-    </div>
+      </div>
+      <div class="exp-box">
+        <div class="exp-header" onclick="toggleDetails(this)">
+          <img src="https://i.imgur.com/7G47BUq.png" alt="彰中校徽" class="exp-logo">
+          <div class="exp-info">
+            <h4>國立彰化高級中學</h4>
+            <h4 class="exp-date">2016 - 2019</h4>
+          </div>
+          <div class="exp-toggle-icon">▽</div>
+        </div>
+        <div class="exp-details">
+          <p>在學期間對數學產生濃厚的興趣，會考以數學滿分考入國立彰化高級中學，更在指考數乙以全國前 4% 的成績進入國立中正大學。</p>
+        </div>
+      </div>
 
-    <h3>聯絡我</h3>
-    <div class="contact-info">
-      <p>
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:ytes96324@gmail.com">Gmail</a>
-      </p>
-      <p>
-        <i class="fab fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/hsiangfanchiang" target="_blank">Linkedin</a>
-      </p>
+      <h3>聯絡我</h3>
+      <div class="contact-info">
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:ytes96324@gmail.com">Gmail</a>
+        </p>
+        <p>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/hsiangfanchiang" target="_blank">Linkedin</a>
+        </p>
+      </div>
     </div>
-  </div>
 
   <footer>
-    <a href="index-en.html"><button>English</button></a><br><br>
-    © 2025 江庠範的個人網站
+     © 2025 江庠範的個人網站
   </footer>
+  <script src="scripts.js"></script>
 </body>
 </html>
+ 
