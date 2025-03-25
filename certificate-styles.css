@@ -68,7 +68,7 @@ header h2 {
 
   /* 淡入動畫 */
   opacity: 0;
-  animation: fadeInUp 1s ease forwards;
+  animation: fadeInUp 1s ease;
 }
 
 .school-logo {
