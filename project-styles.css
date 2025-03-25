@@ -116,7 +116,7 @@ header h2 {
   text-align: center;
   cursor: pointer;
   transition: transform 0.3s ease;
-  animation: bounceIn 1s ease-out forwards;
+  animation: bounceIn 1s ease-out;
 }
 
 /* 延遲每個卡片的跳出時間 */
