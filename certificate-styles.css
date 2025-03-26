@@ -92,11 +92,9 @@ header h2 {
 
 @keyframes bounceIn {
   0% {
-    opacity: 1;
     transform: scale(1);
   }
   60% {
-    opacity: 1;
     transform: scale(1.1);
   }
   80% {
