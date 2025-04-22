@@ -325,4 +325,16 @@ footer {
   padding: 20px;
   color: #888;                          /* 灰色字體 */
 }
- 
+
+.exp-list {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+.exp-list li {
+  margin-bottom: 8px;
+  font-family: 'Times New Roman', '微軟正黑體', sans-serif;
+  color: #3C3C3C !important;
+}
