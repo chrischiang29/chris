@@ -347,4 +347,49 @@ footer {
   padding: 20px;
   color: #888;                          /* 灰色字體 */
 }
- 
+
+.project-list {
+  margin-top: 30px;
+  border-top: 2px solid #ddd;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 12px 8px;
+}
+
+.project-info {
+  text-align: left;
+  max-width: 80%;
+}
+
+.project-info h4 {
+  margin: 0;
+  font-size: 17px;
+  color: #333;
+}
+
+.project-info p {
+  margin: 5px 0 0 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.download-btn {
+  text-decoration: none;
+  background-color: #4a90e2;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.download-btn:hover {
+  background-color: #357ABD;
+}
+
