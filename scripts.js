@@ -21,11 +21,11 @@ function toggleDetails(header) {
 }
 
 function toggleProject(card) {
-  // 取得所有 .project-content
-  const allProjects = document.querySelectorAll(".project-content");
-  const index = Array.from(card.parentNode.children).indexOf(card);
+  const allProjects = document.querySelectorAll('.project-content');
+  allProjects.forEach(p => p.style.display = 'none'); // 全部先隱藏
 
-  allProjects.forEach((proj, i) => {
-    proj.style.display = (i === index && proj.style.display !== "block") ? "block" : "none";
-  });
+  const index = parseInt(card.getAttribute('data-index')); // 取得按鈕對應的 index
+  if (allProjects[index]) {
+    allProjects[index].style.display = 'block'; // 只顯示對應的那個內容
+  }
 }
